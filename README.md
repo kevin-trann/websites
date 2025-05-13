@@ -1,3 +1,4 @@
 mini websites I created for fun
 
-* p.s to see multimediaplayer.html, download bigboyblastoise.mp3 and squirtlesquad.mp4
+"only_html" contains websites I created only using HTML
+
