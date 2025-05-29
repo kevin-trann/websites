@@ -1,0 +1,76 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">  Customer Survey </h1>
+    <p id="description">Please fill out this survey and give your honest feedback about our service!</p>
+    <form id="survey-form"> 
+
+    <label for="name-label" id="name-label">Name</label>
+    <input id="name" type="text" required placeholder="Your Name">
+<br>
+    <label for="email-label" id="email-label">Email</label>
+    <input id="email" type="email" required placeholder="example@email.com">
+
+<br>
+    <label for="number-label" id="number-label">Age</label>
+    <input id="number" type="number" required min="0" max="100" placeholder="Your Age" style="width:68px">
+
+    <br>
+    <br>
+    <label for="dropdown-label">Which employee helped you out?</label>
+    <select id="dropdown"> 
+      <option> Kevony</option>
+      <option> Lebron </option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="rating">Rate your experience from 1-5!</label> <br>
+
+    <input type="radio" id="Poor" name="rating" value="Poor">
+    <label for="Poor">1 - Poor</label>
+    <input type="radio" id="Fair" name="rating" value="Fair">
+    <label for="Fair">2 - Fair</label>
+    <input type="radio" id="Satisfactory" name="rating" value="Satisfactory" checked>
+    <label for="Satisfactory">3 - Satisfactory</label>
+    <input type="radio" id="Good" name="rating" value="Good">
+    <label for="Good">4 - Good</label>
+    <input type="radio" id="Excellent" name="rating" value="Excellent" >
+    <label for="Excellent">5 - Excellent</label>
+
+    <br>
+    <br>
+    <label for="suggestions">What would you like to see improved? (check all that apply) <br>
+    <input type="checkbox" value="Customer Service">
+     <label for="Customer Service">Customer Service</label>
+    <input type="checkbox" value="Quality of Work">
+     <label for="Product Quality">Product Quality</label>
+    <input type="checkbox" value="Pricing">
+     <label for="Pricing">Pricing/Value</label>
+    
+
+    <br>
+    <br>
+    <label for="comment-box"> Any other suggestions/questions?</label>
+    <br>
+    
+    
+
+    <textarea rows="3" cols="26" > </textarea>
+
+    <button type="submit" id="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+

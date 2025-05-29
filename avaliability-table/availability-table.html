@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <table>
+        <tr class="sharp">
+        <th>DAYS</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        </tr>
+
+        <tr class="sharp">
+        <th class="time"><time>8am</time></th>
+        <td class="available-4"> </td>
+        <td class="available-1"> </td>
+        <td class="available-3"> </td>
+        <td class="available-5"> </td>
+        <td class="available-2"> </td>
+        </tr>
+
+        <tr class="half">
+        <th class="time"><time>12pm</time></th>
+        <td class="available-3"> </td>
+        <td class="available-4"> </td>
+        <td class="available-2"> </td>
+        <td class="available-1"> </td>
+        <td class="available-5"> </td>
+        </tr>
+
+        <tr class="half">
+        <th class="time"><time>4pm</time></th>
+        <td class="available-2"> </td>
+        <td class="available-1"> </td>
+        <td class="available-5"> </td>
+        <td class="available-3"> </td>
+        <td class="available-4"> </td>
+        </tr>
+        
+        <tr class="solid">
+        <th class="time"><time>8pm</time></th>
+        <td class="available-1"> </td>
+        <td class="available-0"> </td>
+        <td class="available-2"> </td>
+        <td class="available-4"> </td>
+        <td class="available-0"> </td>
+        </tr>
+
+
+    </table>
+
+    <div id="legend">
+
+        <span>Availability</span>
+
+        <div class="bar">
+
+        <div id="label1">0</div>
+        <div id="legend-gradient">
+        </div>
+        <div id="label2">5</div>
+        
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

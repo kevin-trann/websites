@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <main id="main-doc">
+  <nav id="navbar"> 
+    <header>Python Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Basic_Syntax">Basic Syntax</a>
+    <a class="nav-link" href="#Variables_and_Types">Variables and Types</a>
+    <a class="nav-link" href="#Conditionals">Conditionals</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+  </nav>
+
+    <section class="main-section" id="Introduction"> 
+      <header>Introduction</header>
+      <p>Python is a high-level, general-purpose programming language known for its simple, readable syntax and powerful capabilities. 
+        It was created by Guido van Rossum and released in 1991. Python emphasizes code readability and is often recommended as a first language for new programmers.</p>
+      <p>Thanks to its vast ecosystem of libraries and frameworks, Python is used in many fields — including web development, automation, data science, machine learning, and game development. Its cross-platform nature means the same Python code can run on Windows, macOS, and Linux without modification.</p>
+    </section>
+    
+
+    <section class="main-section" id="Basic_Syntax"> 
+      <header>Basic Syntax</header>
+      <p> Python uses indentation instead of curly braces or keywords to define blocks of code. This makes the code easier to read and consistent. For example, all code inside a loop or function must be indented.</p>
+      <p> Here's how you print a message, declare variables, and write a simple if condition:</p>
+      <pre><code>print("Hello, World!")  # Output text
+x = 10
+if x > 5:
+    print("x is greater than 5")</code></pre>
+    </section>
+  
+
+    <section class="main-section" id="Variables_and_Types"> 
+      <header>Variables and Types</header>
+      <p>In Python, you don’t need to declare a variable's type — it’s determined at runtime. This makes Python flexible and fast to write, though you must be mindful of types during calculations or string operations. You can store integers, floats, strings, and booleans in variables directly.</p>
+      <p>You can also use type() to check what type a variable is. Python supports basic types like <code> int, float, str, and bool.</code> </p> 
+<pre><code>age = 10  #int
+pi = 3.14  #float
+name = "Luffy" #str
+is_alive = True #bool
+
+print(type(age))  # Output: class 'int'
+</code></pre>
+
+
+    </section>
+  
+
+    <section class="main-section" id="Conditionals"> 
+        <header>Conditionals</header>
+        <p>Python uses <code>if, elif, and else</code> to make decisions in code. Each block must be properly indented. Conditions are built using comparison operators like <code>==, !=, >, <, >=, <=, </code> and logical operators like <code>and, or, </code>and<code> not.</code></p>
+
+<ul>
+<li>== - returns <code>True</code> if equal </li>
+<li>!= - returns <code>True</code> if NOT equal </li>
+<li>> - returns <code>True</code> if greater than </li>
+<li>< - returns <code>True</code> if lesser than </li>
+<li>>= - returns <code>True</code> if greater or equal than </li>
+<li><= - returns <code>True</code> if lesser or equal than </li>
+</ul>
+        <p>Conditionals allow your program to respond to different situations dynamically. They’re essential for creating interactive, decision-making code.</p>
+<pre><code>score = 85
+
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+else:
+    print("Keep studying!")</code></pre>
+    </section>
+
+
+    <section class="main-section" id="Loops"> 
+        <header>Loops</header>
+        <p>Loops are used to repeat code multiple times. Python supports two main types of loops: <code> for</code> and <code> while.</code> The for loop is ideal for iterating over sequences (like lists or strings), while <code> while </code> is best when you don’t know ahead of time how many times to loop.</p>
+        <p>You can use break to exit a loop early or continue to skip to the next iteration. Loops are fundamental for automation and repetitive tasks.</p>
+<pre><code># for loop
+for i in range(3):
+    print("Round", i)
+
+# while loop
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1</code></pre>
+    </section>
+  
+
+  </main>
+  </body>
+</html>
+

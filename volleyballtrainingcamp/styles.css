@@ -1,0 +1,39 @@
+.blog-post-card{
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  text-align: left;
+  font-family: trebuchet ms;
+}
+
+.post-img{
+  width: 100%;
+  border-bottom: solid 1px;
+}
+
+.post-content{
+  padding: 10px;
+}
+
+.post-title{
+  color: red;
+  margin:10px;
+}
+
+.post-excerpt{
+  color: black;
+  padding-bottom: 10px;
+}
+
+.read-more{
+  color:white;
+  background-color:red;
+  padding:10px;
+  margin: 132px;
+  border-radius: 6px;
+}
+
+.read-more:hover{
+  background-color: black;
+  
+}

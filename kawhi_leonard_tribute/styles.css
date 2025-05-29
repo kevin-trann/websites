@@ -1,0 +1,66 @@
+body{
+  font-family:montserrat;
+  background-color:#F77070;
+  color:white;
+}
+
+h1, h2, h3, figcaption, p{
+  text-align: center;
+}
+
+h2{
+  margin-top:4vh;
+}
+
+h3{
+  font-weight:normal;
+  font-size: 1.5rem;
+}
+
+figcaption{
+  transform:translateY(0.8vh);
+  font-size:1.5rem;
+}
+
+#img-div{
+  width:40vw;
+  padding:30px;
+  margin: 0 auto;
+  background-color:#FAA0A0;
+  border-radius: 10px;
+  border: white 0.1px solid;
+}
+
+li{
+  margin-bottom:0.8vh;
+  font-size:1.1rem;
+  line-height:3vh;
+  
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin: 5px auto;
+}
+
+p{
+  margin: 4vh auto;
+  font-size:1.5rem;
+  background-color:#FAA0A0;
+  border-radius: 10px;
+  width:40.5vw;
+  border: white 0.1px solid;
+  padding: 0.5vw 0.8vw;
+}
+
+
+ul{
+  border: white 0.1px solid;
+  width:40.5vw;
+  margin: 3vh auto;
+  background-color:#FAA0A0;
+  border-radius: 10px;
+  padding-bottom:3vh;
+}

@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(to bottom, #82B3F1 55%, #f6d7b0 45%);
+height:100vh;
+}
+
+
+#house{
+  position:relative;
+  width:500px;
+  height:400px;
+  background-color:#F1C082;
+  border: #5C4033 0.1px solid;
+  margin: 0 auto;
+  transform: translateY(500px);
+  z-index:-1;box-sizing:border-box;
+}
+
+#chimney{
+  position:absolute;
+  width:80px;
+  height:96px;
+  background-color:#F1C082;
+  border: #5C4033 1px solid;
+  z-index:1;
+  left:330px;
+  top: -97px;
+  z-index: -2;
+}
+
+#door{
+  background-color:#ECA954;
+position:absolute;
+width:120px;
+height:180px;
+bottom:0;
+left:188px;
+border: #5C4033 1px solid;
+}
+
+#window-1{
+  position:absolute;
+  width:100px;
+  height:100px;
+  background-color: #ECA954;
+  border:#5C4033 1px solid;
+  left:50px;
+  top:140px;
+}
+
+#window-2{
+  position:absolute;
+  width:100px;
+  height:100px;
+  background-color: #ECA954;
+  border:#5C4033 1px solid;
+  left:347px;
+  top:140px;
+}
+
+#roof{
+  position:absolute;
+  top:0;
+  background-color:#ECA954;
+  width:497px;
+  height:100px;
+  border: #5C4033 solid 0.1px;
+}

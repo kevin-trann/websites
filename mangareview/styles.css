@@ -1,0 +1,73 @@
+body{
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+  background:black;
+  
+}
+
+h1{
+  color:white;
+}
+table{
+  display:flex;
+  justify-content: center;
+}
+
+tr[class="read"]{
+background: linear-gradient(119deg,rgba(230, 163, 194, 1) 10%, rgba(148, 187, 233, 1) 100%); 
+
+}
+
+tr[class="to-read"]{
+background: linear-gradient(119deg,rgba(230, 163, 194, 1) 10%, rgba(148, 187, 233, 1) 100%);
+}
+
+tr[class="in-progress"]{
+background: linear-gradient(119deg,rgba(230, 163, 194, 1) 10%, rgba(148, 187, 233, 1) 100%);
+}
+
+span{
+  display:inline-block;
+}
+
+tr[class="to-read"] span[class="status"]{
+  border: black 2px solid;
+  background: none;
+}
+
+tr[class="read"] span[class="status"]{
+  border: transparent 2px solid;
+  background:none;
+}
+
+tr[class="in-progress"] span[class="status"]{
+  border: transparent 2px solid;
+  background:none;
+}
+
+span[class^="rate"], span[class="status"]{
+  height:20px;
+  width: 100px;
+  padding: 3px;
+  
+}
+
+span[class^="rate"] > span{
+  border: black 1px solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  height: 10px;
+  width: 10px;
+  background-color:white;
+ 
+}
+
+span[class~="two"] > span:first-child,span[class~="two"] > span:nth-child(2){
+background-color:black;
+}
+
+span[class~="three"] > span:first-child,span[class~="three"] > span:nth-child(2), span[class~="three"] > span:nth-child(3){
+background-color:black;
+}
+
+

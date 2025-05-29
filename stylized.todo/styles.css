@@ -1,0 +1,49 @@
+.todo-list{
+  list-style-type: square;
+  padding-bottom:30px;
+}
+
+.sub-item-link{
+  text-decoration: none;
+  color: blue;
+}
+
+.sub-item-link:hover{
+  color: red;
+}
+
+.sub-item-link:active{
+  color: pink;
+}
+
+.sub-item-link:focus{
+  color: red;
+  outline: 2px;
+}
+
+.sub-item-link:visited{
+  color: purple;
+}
+
+body{
+  background-color: #EDE8D0;
+  font-family: tahoma;
+}
+
+div{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  max-width:500px;
+}
+
+h1{
+  text-align: center;
+  font-weight: normal;
+  padding-top: 50px;
+}
+
+li{
+  padding-bottom: 20px;
+  
+}
