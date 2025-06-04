@@ -1,0 +1,95 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Magazine Layout</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<main class="magazine-cover">
+  <header class="title">NBA NEWS</header>
+  <section class="feature-article"><h3>Mutual Interest Between Raptors and Giannis Antetokounmpo</h3> <p>Speculation is growing around a potential move of Giannis Antetokounmpo to the Toronto Raptors. Reports suggest mutual interest between the two parties, with the Raptors possessing the assets to facilitate such a trade. Acquiring Antetokounmpo would significantly bolster the Raptors' competitiveness in the Eastern Conference.</p> </section>
+  
+  <section class="small-article1"><h3>NBA Finals: Thunder and Pacers Set to Clash</h3> <p>The 2025 NBA Finals are underway, featuring the Oklahoma City Thunder and the Indiana Pacers. The series schedule is as follows:</p></section>
+  
+  <section class="small-article2"><h3>Victor Wembanyama's Stellar Season Cut Short Due to Injury</h3> <p>San Antonio Spurs' star center Victor Wembanyama will miss the remainder of the 2024–25 NBA season due to a deep vein thrombosis (blood clot) in his right shoulder. Before the injury, Wembanyama was having an impressive season, averaging 24.3 points, 11 rebounds, 3.7 assists, and a league-high 3.8 blocks in 46 starts. </p></section>
+  
+  <section class="cover-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyA0x8_AHs7EGH9HjO7bSfLis6Y5ULgviLg&s" alt="giannis in raptors jersey"></section>
+</main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+  background-color:#0e1111
+}
+
+main{
+  font-family: "Montserrat", sans-serif;
+  width:800px;
+  margin: 0 auto;
+  background-color:black;
+}
+
+header{
+  font-size:30px;
+  text-align:center;
+  font-weight:bold;
+}
+
+
+.magazine-cover{
+  display: grid;
+  grid-template-areas: 
+  'title title title'
+  'feature-article feature-article cover-image'
+  'small-article1 small-article2 cover-image';
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr;
+  gap: 10px;
+}
+
+.title{
+  grid-area: title;
+  background-color:#D52A4A;
+}
+
+.feature-article{
+  grid-area:feature-article;
+  background-color:#DD556E;
+  
+}
+
+.cover-image{
+  grid-area:cover-image;
+  background-color:#D52A4A;
+}
+
+.small-article1{
+  background-color:#D52A4A;
+}
+
+.small-article2{
+  background-color:#DD556E;
+}
+
+img{
+  position: relative;
+  top:30%;
+  left: 11%;
+}
+
+** end of styles.css **
+
