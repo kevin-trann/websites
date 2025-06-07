@@ -1,0 +1,114 @@
+body{
+  padding-top:100px;
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+  background-color:	#7F52B9;
+  color:white;
+}
+
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  gap:300px;
+  top:0;
+  background-color:#753BBD;
+  position:fixed;
+  width:100%;
+  height: 100px;
+  align-items: center;
+  font-size: 22px;
+  border-bottom: white solid 2px;
+}
+
+#nav-bar a{
+  color:white;
+  text-decoration:none;
+  font-weight:700;
+}
+
+#nav-bar a:hover{
+  color:#FF4444;
+  text-decoration:underline;
+}
+
+#nav-bar img{
+  position:absolute;
+  left:10px;
+}
+
+form{
+  text-align:center;
+  padding:100px;
+}
+
+label{
+  font-size:1.7em;
+  display:block;
+  margin-bottom:10px;
+  font-weight:700;
+}
+
+input{
+  font-family: "Montserrat", sans-serif;
+  font-weight:600;
+  border-radius:6px;
+}
+
+#vid-container{
+  display:flex;
+  justify-content:center;
+  padding-bottom:100px;
+}
+
+h1, h2, h3{
+  text-align:center;
+}
+
+h2{
+  font-weight: 400;
+}
+
+h3{
+  font-size:21px;
+}
+
+
+#tickets{
+  display:flex;
+  justify-content:center;
+  gap:100px;
+  padding-bottom:100px;
+}
+
+#box{
+  width:300px;
+  height:500px;
+  background-color:#A070D9;
+  border: solid black 2px;
+}
+
+#box img{
+  display:block;
+  margin: 50px auto;
+  width:285px;
+  height:285px;
+}
+
+#merch{
+  display:flex;
+  justify-content:center;
+  gap:100px;
+  padding-bottom:100px;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#FF4444;
+  text-decoration:underline;
+}
